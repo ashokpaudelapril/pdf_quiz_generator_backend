@@ -26,7 +26,7 @@ app = FastAPI(
 
 # Get allowed origins from environment variable or default to localhost for local dev
 # In Render, you will set FRONTEND_URL to your deployed frontend URL (e.g., https://your-frontend.onrender.com)
-allowed_origins = os.getenv("FRONTEND_URL", "http://localhost:5173").split(",")
+allowed_origins = os.getenv("https://pdf-quiz-generator-frontend.vercel.app", "http://localhost:5173").split(",")
 # Add localhost for local testing (React default dev server is 5173 or 3000)
 allowed_origins.append("http://localhost:3000") # React default
 allowed_origins.append("http://localhost:5173") # Vite default
