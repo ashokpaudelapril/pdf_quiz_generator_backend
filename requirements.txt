@@ -9,3 +9,4 @@ openai
 google
 google-generativeai
 fitz
+PyMuPDF
