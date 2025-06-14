@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart # For file uploads
+pypdf
+nltk
+scikit-learn # For TF-IDF if we choose that for vocab
+python-dotenv # For loading .env file
+openai
+google
+google-generativeai
+fitz
