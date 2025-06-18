@@ -41,8 +41,7 @@ backend/
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/pdf-quiz-generator.git
-cd pdf-quiz-generator/backend
+git clone https://github.com/ashokpaudelapril/pdf_quiz_generator_backend
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -104,13 +103,6 @@ The API will be available at `http://127.0.0.1:8000`.
 - `GET /api/health`  
   Health check endpoint.
 
-## Testing
-
-Unit tests are located in the `tests/` directory. To run tests:
-
-```sh
-pytest
-```
 
 ## Notes
 
@@ -124,4 +116,4 @@ MIT License
 
 ---
 
-For questions or contributions, please open an issue or pull request on the [GitHub repository](https://github.com/yourusername/pdf-quiz-generator).
+For questions or contributions, please open an issue or pull request on the [GitHub repository](https://github.com/ashokpaudelapril/pdf_quiz_generator_backend).
